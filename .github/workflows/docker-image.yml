@@ -26,8 +26,8 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t rguzmanm15/docker-graphql:0.0.1 .
+        docker build -t rguzmanm15/docker-graphql:0.0.2 .
 
     - name: Push Docker Image
       run: | 
-        docker push rguzmanm15/docker-graphql:0.0.1
+        docker push rguzmanm15/docker-graphql:0.0.2
